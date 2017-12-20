@@ -1,4 +1,5 @@
-### Webpack-onay
+## Webpack-onay
+[![Travis](https://img.shields.io/travis/khangeldy/webpack-onay.svg)]()
 
 Қазақ тілінде сипаттамасы бар webpack config. [Webpack](https://webpack.js.org/) фронтенд-бағдарламашылардың заманға сай жинақтау құралы. Оның көмегімен сіз проектіңіз тез және тиімді жинай аласыз.
 
