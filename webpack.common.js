@@ -91,11 +91,11 @@ module.exports = {
     // Cуреттерді src/images-тан dist/images-ге көшіру
     new CopyWebpackPlugin([
       {
-        from: 'src/images',
+        from: 'src/images/*',
         to: 'images'
       },
       {
-        from: 'src/assets',
+        from: 'src/assets/*',
         to: 'assets'
       }
     ]),
