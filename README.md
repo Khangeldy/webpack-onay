@@ -1,5 +1,5 @@
 ## Webpack-onay
-[![Travis](https://img.shields.io/travis/khangeldy/webpack-onay.svg)]()
+[![Travis](https://travis-ci.org/Khangeldy/webpack-onay.svg?branch=master)](http://github.com/khangeldy/webpack-onay)
 
 Қазақ тілінде сипаттамасы бар webpack config. [Webpack](https://webpack.js.org/) фронтенд-бағдарламашылардың заманға сай жинақтау құралы. Оның көмегімен сіз проектіңіз тез және тиімді жинай аласыз.
 
