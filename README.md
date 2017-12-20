@@ -17,8 +17,8 @@
 ### Бастау үшін
 `npm install`
 
-Локальный серверді [http://localhost:3000](http://localhost:3000) адресі бойынша ашады.
+Локальный серверді [http://localhost:3000](http://localhost:3000) адресі бойынша ашады.\n
 `npm start`
 
-webpack-dashboard қосқыңыз келсе
+webpack-dashboard қосқыңыз келсе\n
 `npm run start:dash`
