@@ -1,7 +1,7 @@
 module.exports = {
-  parser: 'sugarss', // https://github.com/postcss/postcss#syntaxes
+  parser: 'sugarss',
   plugins: {
-    'postcss-cssnext': {}, // Қалай қолдану керек http://cssnext.io/features/
+    'postcss-cssnext': {},
     'postcss-easy-import': { extensions: ['.sss', '.css']}
     // ,'cssnano': {}
   }

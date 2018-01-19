@@ -1,23 +1,14 @@
 {
-  "name": "latinnothot",
+  "name": "webpack-onay",
   "version": "0.4.0",
-  "description": "Қазақ тіліне дұрыс латын әліпбиін таңдауға көмектесейік.",
-  "main": "latinize.js",
-  "directories": {
-    "example": "examples"
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/dundalek/latinize.git"
-  },
-  "homepage": "http://github.com/dundalek/latinize",
+  "description": "Webpack оңай үйрену үшін. Сізге бастау үшін ешқандай settings өзгертудің қажеті жоқ.",
+  "homepage": "http://github.com/khangeldy/webpack-onay",
   "author": "Khangeldy Ilebaev <hongeldon@inbox.ru> (http://github.com/khangeldy)",
-  "license": "BSD",
+  "license": "MIT",
   "keywords": [
-    "qaraq tili",
-    "qazaq converter",
-    "қазақ тілі",
-    "kazak grammer"
+    "webpack-qazaq",
+    "қазақша вебпак",
+    "Kazakh webpack"
   ],
   "scripts": {
     "start": "webpack --watch --config webpack.dev.js",
@@ -55,6 +46,7 @@
     "uglifyjs-webpack-plugin": "^1.1.4",
     "webpack": "^3.10.0",
     "webpack-dashboard": "^1.0.2",
+    "webpack-jarvis": "^0.2.2",
     "webpack-merge": "^4.1.1"
   }
 }
