@@ -13,7 +13,8 @@
   "scripts": {
     "start": "webpack --watch --config webpack.dev.js",
     "start:dash": "webpack-dashboard -- webpack --watch --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.35",
@@ -27,7 +28,6 @@
     "cssnano": "^3.10.0",
     "ejs-loader": "^0.3.0",
     "eslint": "^4.13.1",
-    "eslint-config-airbnb": "^16.1.0",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
@@ -37,6 +37,7 @@
     "google-fonts-webpack-plugin": "^0.4.3",
     "html-webpack-plugin": "^2.30.1",
     "imagemin-webpack-plugin": "^1.5.2",
+    "jpegtran-bin": "^3.2.0",
     "postcss-cssnext": "^3.0.2",
     "postcss-easy-import": "^3.0.0",
     "postcss-import": "^11.0.0",
@@ -45,8 +46,10 @@
     "sugarss": "^1.0.1",
     "uglifyjs-webpack-plugin": "^1.1.4",
     "webpack": "^3.10.0",
-    "webpack-dashboard": "^1.0.2",
     "webpack-jarvis": "^0.2.2",
     "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "gh-pages": "^1.1.0"
   }
 }

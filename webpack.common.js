@@ -1,8 +1,6 @@
 const path = require('path'),
       HtmlWebpackPlugin = require('html-webpack-plugin'),
-      CopyWebpackPlugin = require('copy-webpack-plugin'),
-      ExtractTextPlugin = require("extract-text-webpack-plugin"),
-      CleanWebpackPlugin = require('clean-webpack-plugin');
+      ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
   entry: './src/app.js',
@@ -47,17 +45,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, 'src/template/index.ejs')
+      template: path.join(__dirname, 'src/template/index.ejs'),
+      title: 'Webpack Onay'
     }),
-    new CopyWebpackPlugin([
-      {
-        from: 'src/images/*',
-        to: 'images'
-      },
-      {
-        from: 'src/assets/*',
-        to: 'assets'
-      }
-    ]),
   ]
 }
