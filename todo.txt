@@ -2,3 +2,5 @@ fix autoprefixer double
 add extract-text
 fix package.json
 babel loader cacheDir
+webpack-browser-log
+strip-debug-loader 

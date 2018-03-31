@@ -1,6 +1,7 @@
 const path = require('path'),
       HtmlWebpackPlugin = require('html-webpack-plugin'),
-      ExtractTextPlugin = require("extract-text-webpack-plugin");
+      ExtractTextPlugin = require("extract-text-webpack-plugin"),
+      WebpackMessages = require('webpack-messages');
 
 module.exports = {
   entry: './src/app.js',
@@ -48,5 +49,9 @@ module.exports = {
       template: path.join(__dirname, 'src/template/index.ejs'),
       title: 'Webpack Onay'
     }),
+    new WebpackMessages({
+      name: 'client',
+      logger: str => console.log('>> ' + str)
+    })
   ]
 }
